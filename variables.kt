@@ -1,13 +1,15 @@
+const val pi = 3.14 /* const are variables known before the code execution */
+
 fun main() {
-    var name: String = "Florsk"
+    /* variables keywords */
+    println(pi)
+    var name: String = "Florsk" /* var = mutable */
+    println("${name}")
+    name = "Davi"
+    val age: Int = 21 /* val = read only */
     var plans: String = "to become a sucessful developer!"
     println("My name is ${name} and I want ${plans}")
-    /* you can also define a variable with val */
-    /* var = can be changed */
-    /* val = can't be changed */
-    val age = 20
-    name = "Davi"
-    println("${name}")
+    println("${name}, ${age}")
 }
 
 /* I am currently studing variables and here are some examples
